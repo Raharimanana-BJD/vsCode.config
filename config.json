@@ -1,0 +1,85 @@
+{
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "files.autoSave": "onFocusChange",
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.defaultLanguage": "markdown",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "emmet.triggerExpansionOnTab": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 28,
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "vue.inlayHints.optionsWrapper": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3d59a1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "errorLens.excludeBySource": ["css(css-semicolonexpected)"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "errorLens.exclude": [
+    "Problems loading reference 'https://json\\.schemastore\\.org/package': Unable to load schema from 'https://json\\.schemastore\\.org/package': getaddrinfo ENOTFOUND json\\.schemastore\\.org\\.",
+    "Virtual script \"/home/dontosay/Bureau/vite-vue/src/App\\.vue\\.js\" not found, may missing <script lang=\"ts\"> / \"allowJs\": true / jsconfig\\.json\\."
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "yoyo930021.vuter"
+  },
+  "workbench.colorTheme": "Tokyo Night Storm"
+}
